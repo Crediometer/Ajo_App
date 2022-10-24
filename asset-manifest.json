@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Ajo_App/static/css/main.31a8907b.css",
-    "main.js": "/Ajo_App/static/js/main.62b9f9d9.js",
-    "static/media/profile-image.jpg": "/Ajo_App/static/media/profile-image.e575d97a45880b5ddd00.jpg",
-    "static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.png": "/Ajo_App/static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.b9b7cabcfab51f712923.png",
-    "static/media/success.png": "/Ajo_App/static/media/success.1cf29ab15f66f9817843.png",
-    "static/media/success2.png": "/Ajo_App/static/media/success2.39113ff2087fe5885689.png",
-    "static/media/help.png": "/Ajo_App/static/media/help.adf29f947b2a3270263c.png",
-    "static/media/amico.png": "/Ajo_App/static/media/amico.40b3adb6b615f6217a10.png",
-    "static/media/Group 692.png": "/Ajo_App/static/media/Group 692.d23351329f99010ac4bf.png",
-    "index.html": "/Ajo_App/index.html",
-    "main.31a8907b.css.map": "/Ajo_App/static/css/main.31a8907b.css.map",
-    "main.62b9f9d9.js.map": "/Ajo_App/static/js/main.62b9f9d9.js.map"
+    "main.css": "/static/css/main.d73eb600.css",
+    "main.js": "/static/js/main.1683cb78.js",
+    "static/media/profile-image.jpg": "/static/media/profile-image.e575d97a45880b5ddd00.jpg",
+    "static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.png": "/static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.b9b7cabcfab51f712923.png",
+    "static/media/success.png": "/static/media/success.1cf29ab15f66f9817843.png",
+    "static/media/success2.png": "/static/media/success2.39113ff2087fe5885689.png",
+    "static/media/help.png": "/static/media/help.adf29f947b2a3270263c.png",
+    "static/media/amico.png": "/static/media/amico.40b3adb6b615f6217a10.png",
+    "static/media/Group 692.png": "/static/media/Group 692.d23351329f99010ac4bf.png",
+    "index.html": "/index.html",
+    "main.d73eb600.css.map": "/static/css/main.d73eb600.css.map",
+    "main.1683cb78.js.map": "/static/js/main.1683cb78.js.map"
   },
   "entrypoints": [
-    "static/css/main.31a8907b.css",
-    "static/js/main.62b9f9d9.js"
+    "static/css/main.d73eb600.css",
+    "static/js/main.1683cb78.js"
   ]
 }
