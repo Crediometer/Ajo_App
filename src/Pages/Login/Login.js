@@ -57,7 +57,7 @@ const Login = () => {
                                     </Link>
                                 </div>
                             </div>
-                            <Link to="/Dashboard">
+                            <Link to="/dashboard">
                                 <div className="submit">
                                     <input 
                                     type="submit"
