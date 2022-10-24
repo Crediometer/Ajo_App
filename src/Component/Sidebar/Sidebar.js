@@ -14,7 +14,7 @@ const Sidebar = () => {
                 <ul>
                     <li
                      id={window.location.pathname == '/dashboard'? "active" : ""}
-                     onClick={()=>{window.location.pathname = '/';
+                     onClick={()=>{window.location.pathname = '/dashboard';
                      }}
                     >
                         <span><FiHome/>Dashboard</span>
