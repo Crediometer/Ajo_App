@@ -1,0 +1,112 @@
+.sidebar{
+    position: fixed;
+    height: 100%;
+    min-height: 100vh;
+    width: 300px;
+    background-color: white;  
+}
+.sidebarlogo{
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.07);
+}
+.sidebarlogo p{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #B11226;
+}
+.navigations{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.navigations ul{
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigations ul li, .logout p{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 53px;
+    margin-top: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.sub-menu ol li{
+    padding-left: 50px;
+}
+.sidebar-ajo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-ajo div{
+    display: flex;
+    align-items: center;
+}
+.submenu-arrow{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.submenu-ajo.active1 .submenu-arrow svg{
+    transform: rotate(180deg);
+}
+.sub-menu{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.submenu-ajo.active1 .sub-menu{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.logout p{
+    color: #D50000;
+}
+.logout{
+    margin-top: 70px;
+}
+.logout p svg{
+    margin-right: 16px;
+    color: black;
+}
+.navigations ul li:hover, .logout p:hover{
+    background: rgba(175, 19, 46, 0.06);
+    border-radius: 10px 0px 0px 10px;
+    color: rgba(177, 18, 38, 0.74);
+    transition: 0.4s ease-in-out;
+    border-right: 4px solid  #B11226;
+}
+#active{
+    background: rgba(175, 19, 46, 0.06);
+    border-radius: 10px 0px 0px 10px;
+    color: rgba(177, 18, 38, 0.74);
+    transition: 0.4s ease-in-out;
+    border-right: 4px solid  #B11226;
+}
+.navigations ul li span{
+    display: flex;
+    align-items: center;
+}
+.navigations ul li svg{
+    margin-right: 16px;
+
+}

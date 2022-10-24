@@ -1,0 +1,32 @@
+.money-in-out{
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.money-in-text, .money-out-text{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.6349px;
+    color: #555555;
+    display: flex;
+    align-items: center;
+}
+.money-in-text span{
+    color: #068B6C;
+}
+.money-in-amount, .money-out-amount{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6878px;
+    line-height: 120%;
+    color: #068B6C;
+}
+.money-out{
+    margin-left: 10px;
+}
+.money-out-text span, .money-out-amount{
+    color: #D50000;
+}

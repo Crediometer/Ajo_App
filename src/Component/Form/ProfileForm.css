@@ -1,0 +1,104 @@
+.profileform{
+    width: 100%;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+}
+.profile-image p{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #022A20;
+}
+.edit-profile{
+    position: relative;
+}
+.edit-profile img{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #6445BE;
+}
+.edit-icon{
+    position: absolute;
+    bottom: 0;
+    right:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6445BE;
+}
+.edit-icon svg{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.form-5{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-name, .profile-other{
+    padding: 15px;
+    padding-bottom: 25px;
+    width: 48%;
+    height: 64px;
+    border-bottom: 2px solid #6445BE;
+    border-radius: 9px;
+    background-color: white;
+}
+.profile-textarea{
+    height: 120px;
+}
+.profile-name label, .profile-other label{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.1607px;
+    line-height: 120%;
+    color: #6445BE;
+    margin: 0;
+    padding: 0;
+}
+.profile-name input, .profile-other input,.profile-name select{
+    width: 100%;
+    height: 80%;
+    border: none;
+    background-color: transparent;
+}
+.profile-textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+.form-6{
+    margin-top: 30px;
+}
+
+.profile-other{
+    width: 100%;
+}
+.submit-2{
+    margin-top: 30px;
+}
+.submit-2 input{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.4488px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 20%;
+    height: 48px;
+    border: none;
+    background: #B11226;
+    border-radius: 10px;
+}

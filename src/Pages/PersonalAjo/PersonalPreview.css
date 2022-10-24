@@ -1,0 +1,84 @@
+.personal-preview-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.personal-preview-inner{
+    width: 60%;
+    margin-top: 50px;
+}
+.personal-preview-inner table{
+    width: 100%;
+}
+.life-style{
+    padding-bottom: 30px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    color: #058B42;
+}
+.personal-preview-inner table tr{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.selected-option, .selected-choice{
+    text-align: left;
+    padding-bottom:10px;
+}
+.selected-choice{
+    text-align: right;
+}
+.current-account{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.debit{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.credio-account{
+    margin: 0;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.change{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(39, 53, 183, 0.8);
+}
+.terms-info{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.terms-info span{
+    color: #058B42;
+}

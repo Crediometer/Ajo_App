@@ -1,0 +1,41 @@
+.available{
+    margin-top: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 45px;
+    grid-column-gap: 55px;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6{
+    box-shadow: 9.99649px 9.99649px 24.9912px rgba(0, 0, 0, 0.07);
+    border-radius: 12.4956px;
+    height: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29.7395px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.grid-1{
+    background: #058B42;
+}
+.grid-2{
+    background-image: linear-gradient(231.59deg, #65FDF0 -112.25%, #1D6FA3 100%);
+}
+.grid-3{
+    background-color: #AF6152;
+}
+.grid-4{
+    background-color: #B11226;
+}
+.grid-5{
+    background-color: #455A64;
+}
+.grid-6{
+    background-color: #9631FC;
+}

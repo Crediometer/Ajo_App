@@ -1,0 +1,68 @@
+table{
+    width: 100%;
+}
+.tablecell-head {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1906px;
+    color: #555555;
+}
+.tablecell-body{
+    cursor: pointer;
+}
+.recipient{
+    display: flex;
+    align-items: center;
+}
+.recipient-name{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+.recipient-title{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555555;
+}
+.date{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+.time{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555555;
+}
+.transaction-text{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;             
+    color: #2B2B2B;
+}
+.status-button button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.67623px 11.3525px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0827px;
+    color: #FFFFFF;
+    width: 50%;
+    height: 30.35px;
+    background: #068B6C;
+    border-radius: 4px;
+}

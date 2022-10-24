@@ -1,0 +1,66 @@
+.personal-form{
+    width: 90%;
+}
+.estimated{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(1, 5, 3, 0.7);
+}
+.estimated span{
+    text-align: right;
+}
+.lock-plan{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.switch{
+    margin-left: 20px;
+}
+.lock{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+}
+.lock input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    transition: 0.4s;
+}
+.slider::before{
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+}
+input:checked + .slider{
+    background-color: #058B42;
+}
+input:checked + .slider::before{
+    transform: translateX(32px);
+}
+.slider.rounded{
+    border-radius: 24px;
+}
+.slider.rounded::before{
+    border-radius: 50%;
+}

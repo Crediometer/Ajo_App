@@ -1,0 +1,28 @@
+.current-ajo-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.current-ajo-body{
+    margin-top: 50px;
+    width: 75%;
+}
+.match-header{
+    width: 32%;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    color: #000000;
+    position: relative;
+}
+.match-header p::before{
+    position: absolute;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #B11226;
+    border-radius: 10px 10px 0px 0px;
+}

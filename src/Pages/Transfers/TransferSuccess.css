@@ -1,0 +1,43 @@
+.transfer-success-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.transfer-success-inner{
+    width: 80%;
+}
+.success-comment{
+    text-align: center;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+.success-comment span{
+    color: #B11226;
+}
+.img-con{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img-con img{
+    width: 40%;
+}
+.transfer-success-inner button{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 70%;
+    height: 64px;
+    background: #B11226;
+    border: 1px solid #B11226;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}

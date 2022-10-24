@@ -1,0 +1,33 @@
+.ajo-participant-body{
+}
+.ajo-participant-body p{
+    margin-top: 150px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: #000000;
+}
+.add{
+    height: 103px;
+    width: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B11226;
+    border-radius: 50%;
+    color: white;
+    margin-top: 150px;
+    margin-right: 120px;
+    float: right;
+}
+.add svg{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68.1618px;
+    line-height: 102px;
+    color: white;
+}

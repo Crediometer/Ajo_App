@@ -1,0 +1,121 @@
+.transaction-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.transaction-inner{
+    width: 85%;
+}
+.transaction-type{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.type-card-1,.type-card-2,.type-card-3,.type-card-4{
+    width: 20%;
+    height: 200px;
+    padding: 5px;
+    box-shadow: 5.04685px 5.04685px 18.9257px rgba(0, 0, 0, 0.05);
+    border-radius: 13px;
+    text-align: center;
+
+}
+.type-card-1{
+    background-color: #7B4ADD;
+}
+.type-card-2{
+    background-color: #E16A2F;
+}
+.type-card-3{
+    background-color: #49C628;
+}
+.type-card-4{
+    background-color: #257EAB;
+}
+.type-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFE3E3;
+}
+.type-body{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.transaction-rate{
+    margin-right: 20px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: right;
+    color: rgba(255, 240, 243, 0.8);
+}
+.transaction-center{
+    margin-top: 50px;
+}
+.transaction-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction-history p{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2B2B2B;
+}
+.transaction-filter{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.from-filter{
+    padding: 10px;
+    background-color: #E9E9E9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.from-filter label{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #161616;
+}
+.from-filter input{
+    margin-left: 10px;
+    background-color: transparent;
+
+}
+.sort-filter{
+    display: flex;
+    align-items: center;
+}
+.sort-filter select{
+    width: 84px;
+    height: 45px;
+    padding: 5px;
+    background: #9747FF;
+    border-radius: 4px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3362px;
+    color: #FFFFFF;
+}
+.transaction-table{
+    margin-top: 10px;
+}

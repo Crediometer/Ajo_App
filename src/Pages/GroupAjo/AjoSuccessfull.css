@@ -1,0 +1,50 @@
+.ajo-successfull-inner{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ajo-successfull-body{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.ajo-successfull-body-inner{
+    text-align: center;
+}
+.ajo-successfull-body img{
+    width: 300px;
+}
+.ajo-successfull-body p{
+    width: 443.75px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42.4199px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+.ajo-successfull-body p span{
+    color: #058B42;
+}
+.ajo-successfull-body button{
+    margin-top: 20px;
+    margin-left: -50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.5254px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 568px;
+    height: 76px;
+    background: #B11226;
+    border-radius: 11px;
+    border: none;
+}

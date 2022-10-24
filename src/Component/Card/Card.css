@@ -1,0 +1,55 @@
+.card{
+    background: linear-gradient(308.88deg, #B11226 9.57%, #8C1BAB 233.58%);
+    border-radius: 20px;
+    height: 100%;
+    padding: 30px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-header p , .card-header svg{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.9375px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.card-body{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.balance{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.2812px;
+    color: #FFFFFF;
+}
+.balance-amount{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    color: #FFFFFF;
+}
+.dot{
+    color: #09D1A2;
+    font-size: 30px;
+}
+.decimal{
+    color: #FD596C;
+    font-size: 30px;
+}
+.account-number{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.9219px;
+    color: #FFFFFF;
+}
+.account-number span{
+    margin-left: 10px;
+}

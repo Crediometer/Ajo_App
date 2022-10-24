@@ -1,0 +1,27 @@
+.sidebar-transfer{
+    width: 400px;
+}
+.transferlogo{
+    margin-left: -130px;
+}
+.transfernavigation{
+    margin-left: 50px;
+}
+.ecard{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+.transfer-card{
+    width: 90%;
+}
+.first-card{
+    filter: blur(1.5px);
+}
+.second-card{
+    backdrop-filter: blur();
+    z-index: 10;
+    margin-top: -150px;
+}

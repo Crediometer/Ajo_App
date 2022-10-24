@@ -1,0 +1,27 @@
+label{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.ajo-status-inner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.ajo-status-body{
+    width: 80%;
+}
+.ajo-status-outer{
+    width: 48%;
+}
+.form-3{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+.form-4{
+    margin-top: 10px;
+}

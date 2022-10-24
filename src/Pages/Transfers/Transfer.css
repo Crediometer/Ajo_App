@@ -1,0 +1,105 @@
+.transferContainer{
+    margin-left: 400px;
+}
+.transfer-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.transfer-inner{
+    width: 90%;
+}
+.transfer-top{
+    margin-top: 20px;
+}
+.search-screen{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #7560CA;
+}
+.transfer-search{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(250, 165, 176, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.transfer-search svg{
+    font-size: 20px;
+    color: #000000;    
+}
+.transfer-search input{
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+}
+.search::placeholder{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: rgba(47, 43, 43, 0.42);
+}
+.transfer-table{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+}
+
+.transfer-title{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+.transfer-row td{
+    padding: 20px;
+}
+.user-detail{
+    display: flex;
+    align-items: center;
+}
+.user-detail img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-detail p{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2B2B2B;
+}
+.transfer-account2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #068B6C;
+}
+.transfer-next svg{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: black;
+    color: #FFFFFF;
+}

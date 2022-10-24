@@ -1,0 +1,141 @@
+.match-participant-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.match-participant-inner{
+    width: 95%;
+    height: 600px;
+}
+.participant-table{
+    margin-top: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.participant-table thead {
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.participant-table thead tr th{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.7899px;
+    line-height: 100%;
+    color: #555555;
+    text-align: left;
+}
+.table-body {
+    height: 600px;
+    overflow-y: auto;
+    overscroll-behavior-inline: contain;
+}
+.participant-table tbody tr{
+    height: 100px;
+}
+.participant-table tbody tr td{
+    width: 25%;
+}
+.participant-table tbody tr td img{
+    width: 56.93px;
+    height: 56.93px;
+    border-radius: 50%;
+}
+.recepient{
+    display: flex;
+    align-items: center;
+}
+.recepient p{
+    margin-left:15px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.1619px;
+    line-height: 120%;
+    color: #2B2B2B;
+}
+.date{
+    display: flex;
+
+}
+.payment-date{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.1619px;
+    line-height: 120%;
+    color: #2B2B2B;
+}
+.payment-time{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.7899px;
+    line-height: 100%;
+    color: #555555;
+}
+.phonenumber2{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.4346px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+.dues{
+    
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.1619px;
+    line-height: 120%;
+    color: #2B2B2B;
+}
+.status-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 113.46px;
+    height: 38.23px;
+    background: #068B6C;
+    border-radius: 4.74397px;
+}
+.status-button button{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.1619px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+.match-submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.match-submit button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 16px 0px;
+    width: 80%;
+    height: 80px;
+    background: #B11226;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}

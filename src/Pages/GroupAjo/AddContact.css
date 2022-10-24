@@ -1,0 +1,94 @@
+.add-contact-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contact-filter{
+    width: 80%;
+}
+.search-contact{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 700px;
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.search-contact::placeholder{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.form-contact{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-title p{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.1727px;
+    line-height: 34px;
+    text-align: center;
+    color: #058B42;
+}
+.unselect, .proceed{
+    color: white;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.2593px;
+    line-height: 16px;
+    text-align: center;
+    padding: 7px;
+    width: 121px;
+    height: 41px;
+    background: #786264;
+    border-radius: 5px;
+    border: none;
+}
+.proceed{
+    margin-left: 17px;
+    background-color: #B11226;
+}
+.contact-list{
+    margin-top: 47px;
+}
+.contact-table{
+    margin-top: 10px;
+    width: 100%;
+}
+.contact-table tr td img{
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+}
+.contact-table tr td{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.add-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #058B42;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}

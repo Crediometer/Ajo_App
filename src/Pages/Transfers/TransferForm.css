@@ -1,0 +1,8 @@
+.transfer-form-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.transfer-form-inner{
+    width: 90%
+}
