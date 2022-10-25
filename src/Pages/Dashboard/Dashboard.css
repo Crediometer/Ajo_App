@@ -1,5 +1,5 @@
 .dashboard-body{
-    margin-top: 100px;
+    margin-top: 73px;
 }
 .dashboard-inner{
     display: flex;
@@ -94,7 +94,6 @@
 }
 .dashboard-right{
     width: 25%;
-    
 }
 
 .recent-transfer{

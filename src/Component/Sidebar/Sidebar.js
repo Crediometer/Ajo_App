@@ -23,7 +23,7 @@ const Sidebar = () => {
                             <span className='sidebar-ajo'><div><BiWallet/>Ajo</div> <div className="submenu-arrow" onClick={() => setActive(!active1)}><HiChevronDown/></div></span>
                         </li>
                         <ol className='sub-menu' >
-                            <Link to='./ajo'>
+                            <Link to='/ajo'>
                                 <li><span>Group Ajo</span></li>
                             </Link>
                             <Link to='/matchajo'>
