@@ -1,5 +1,6 @@
 import './Sidebar.css';
 import {FiHome} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import {BiWallet, BiNotification, BiSliderAlt, BiLogOut} from 'react-icons/bi';
 import {HiChevronDown} from 'react-icons/hi'
 import { useState } from 'react';
@@ -12,13 +13,15 @@ const Sidebar = () => {
             </div>
             <div className="navigations">
                 <ul>
-                    <li
-                     id={window.location.pathname == '/dashboard'? "active" : ""}
-                     onClick={()=>{window.location.pathname = '/dashboard';
-                     }}
-                    >
-                        <span><FiHome/>Dashboard</span>
-                    </li>
+                    <Link to='/dashboard'>
+                        <li
+                        id={window.location.pathname == '/dashboard'? "active" : ""}
+                        onClick={()=>{window.location.pathname = '/dashboard';
+                        }}
+                        >
+                            <span><FiHome/>Dashboard</span>
+                        </li>
+                    </Link>
                     <div className={active1 ? 'submenu-ajo active1' : 'submenu-arrow'}>
                         <li
                         >
@@ -42,29 +45,35 @@ const Sidebar = () => {
                             ><span>Personal Ajo</span></li>
                         </ol>
                     </div>
-                    <li
-                    id={window.location.pathname == '/transaction'? "active" : ""}
-                    onClick={()=>{window.location.pathname = '/transaction';
-                    }}
-                    >
-                        <span><BiNotification/>Transaction</span>
-                    </li>
-                    <li
-                     id={window.location.pathname == '/profile'? "active" : ""}
-                     onClick={()=>{window.location.pathname = '/profile';
-                     }}>
-                        <span><BiSliderAlt/>Profile</span>
-                    </li>
+                    <Link to='/transaction'>
+                        <li
+                        id={window.location.pathname == '/transaction'? "active" : ""}
+                        onClick={()=>{window.location.pathname = '/transaction';
+                        }}
+                        >
+                            <span><BiNotification/>Transaction</span>
+                        </li>
+                    </Link>
+                    <Link to='/profile'>
+                        <li
+                        id={window.location.pathname == '/profile'? "active" : ""}
+                        onClick={()=>{window.location.pathname = '/profile';
+                        }}>
+                            <span><BiSliderAlt/>Profile</span>
+                        </li>
+                    </Link>
                     <li>
                         <span><BiSliderAlt/>Fund Account</span>
                     </li>
-                    <li
-                     id={window.location.pathname == '/transfer'? "active" : ""}
-                     onClick={()=>{window.location.pathname = '/transfer';
-                     }}
-                    >
-                        <span><BiSliderAlt/>Transfer</span>
-                    </li>
+                    <Link to='/transfer'>
+                        <li
+                        id={window.location.pathname == '/transfer'? "active" : ""}
+                        onClick={()=>{window.location.pathname = '/transfer';
+                        }}
+                        >
+                            <span><BiSliderAlt/>Transfer</span>
+                        </li>
+                    </Link>
                     <li>
                         <span><BiSliderAlt/>Ask A Friend</span>
                     </li>
