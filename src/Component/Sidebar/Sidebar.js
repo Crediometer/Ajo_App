@@ -13,8 +13,8 @@ const Sidebar = () => {
             <div className="navigations">
                 <ul>
                     <li
-                     id={window.location.pathname == '/Dashboard'? "active" : ""}
-                     onClick={()=>{window.location.pathname = '/';
+                     id={window.location.pathname == '/dashboard'? "active" : ""}
+                     onClick={()=>{window.location.pathname = '/dashboard';
                      }}
                     >
                         <span><FiHome/>Dashboard</span>
