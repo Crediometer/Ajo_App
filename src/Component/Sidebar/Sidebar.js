@@ -14,51 +14,33 @@ const Sidebar = () => {
             <div className="navigations">
                 <ul>
                     <Link to='/dashboard'>
-                        <li
-                        id={window.location.pathname == '/dashboard'? "active" : ""}
-                        onClick={()=>{window.location.pathname = '/dashboard';
-                        }}
-                        >
+                        <li>
                             <span><FiHome/>Dashboard</span>
                         </li>
                     </Link>
                     <div className={active1 ? 'submenu-ajo active1' : 'submenu-arrow'}>
-                        <li
-                        >
+                        <li>
                             <span className='sidebar-ajo'><div><BiWallet/>Ajo</div> <div className="submenu-arrow" onClick={() => setActive(!active1)}><HiChevronDown/></div></span>
                         </li>
                         <ol className='sub-menu' >
-                            <li
-                                id={window.location.pathname == '/ajo'? "active" : ""}
-                                onClick={()=>{window.location.pathname = '/ajo';
-                                }}
-                            ><span>Group Ajo</span></li>
-                            <li
-                                id={window.location.pathname == '/matchajo'? "active" : ""}
-                                onClick={()=>{window.location.pathname = '/matchajo';
-                                }}
-                            ><span>Matching Ajo</span></li>
-                            <li
-                                id={window.location.pathname == '/personalajo'? "active" : ""}
-                                onClick={()=>{window.location.pathname = '/personalajo';
-                                }}
-                            ><span>Personal Ajo</span></li>
+                            <Link to='./ajo'>
+                                <li><span>Group Ajo</span></li>
+                            </Link>
+                            <Link to='/matchajo'>
+                                <li><span>Matching Ajo</span></li>
+                            </Link>
+                            <Link to='/personalajo'>
+                                <li><span>Personal Ajo</span></li>
+                            </Link>
                         </ol>
                     </div>
                     <Link to='/transaction'>
-                        <li
-                        id={window.location.pathname == '/transaction'? "active" : ""}
-                        onClick={()=>{window.location.pathname = '/transaction';
-                        }}
-                        >
+                        <li>
                             <span><BiNotification/>Transaction</span>
                         </li>
                     </Link>
                     <Link to='/profile'>
-                        <li
-                        id={window.location.pathname == '/profile'? "active" : ""}
-                        onClick={()=>{window.location.pathname = '/profile';
-                        }}>
+                        <li>
                             <span><BiSliderAlt/>Profile</span>
                         </li>
                     </Link>
@@ -66,11 +48,7 @@ const Sidebar = () => {
                         <span><BiSliderAlt/>Fund Account</span>
                     </li>
                     <Link to='/transfer'>
-                        <li
-                        id={window.location.pathname == '/transfer'? "active" : ""}
-                        onClick={()=>{window.location.pathname = '/transfer';
-                        }}
-                        >
+                        <li>
                             <span><BiSliderAlt/>Transfer</span>
                         </li>
                     </Link>
