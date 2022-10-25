@@ -4,6 +4,7 @@ import Sidebar from '../../Component/Sidebar/Sidebar';
 import {BiArrowBack} from 'react-icons/bi';
 import './PersonalAjo.css'
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const PersonalAjo = () => {
     const [isToggled, setIstoggled] = useState(false);
     return ( 
@@ -14,7 +15,7 @@ const PersonalAjo = () => {
                     <Navbar/>
                     <div className="body">
                         <div className="back">
-                            <BiArrowBack/>
+                            <Link to='/dashboard'><BiArrowBack/></Link>
                             <p className="title">Personal Savings</p>
                         </div>
                         <div className="personal-ajo-inner">

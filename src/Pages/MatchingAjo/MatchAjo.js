@@ -9,9 +9,11 @@ const MatchAjo = () => {
             <div className="homeContainer">
                 <Navbar/>
                 <div className="body">
-                    <div className="back">
-                        <BiArrowBack/>
-                    </div>
+                    <Link to='/dashboard'>
+                        <div className="back">
+                            <BiArrowBack/>
+                        </div>
+                    </Link>
                     <div className="group-ajo">
                         <div className="group-ajo-inner">
                             <p>No Matching Ajo Found <br></br> Click on start to create a group </p>

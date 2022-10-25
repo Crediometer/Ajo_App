@@ -42,7 +42,7 @@
     justify-content: space-between;
     gap: 15px;
 }
-.dashboard-ajo div{
+.dashboard-ajo a{
     width: 20%;
     height: 166px;
     display: flex;
@@ -59,6 +59,14 @@
 }
 .card-icon{
     font-size: 30px;
+}
+.group-card, .match-card,.personal-card,.more-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 .group-card{
     background: linear-gradient(235.13deg, #43CBFF -81.52%, #9708CC 98.5%);

@@ -7,7 +7,8 @@ import {BsArrowRight, BsPiggyBank, BsThreeDots} from 'react-icons/bs';
 import {MdArrowDropDown, MdArrowDropUp} from 'react-icons/md';
 import Card from '../../Component/Card/Card';
 import { TransferData } from './TransferData';
-import help from "../../image/help.png"
+import help from "../../image/help.png";
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
 import DashboardTable from '../../Component/Table/DashboardTable';
 import TransferRate from '../../Component/Rate/TransferRate';
@@ -31,22 +32,30 @@ const Dashboard = () => {
                                    <Card/>
                                 </div>
                                 <div className="dashboard-ajo">
-                                    <div className="group-card">
-                                        <FaUsers className='card-icon'/>
-                                        <p>Group Ajo</p>
-                                    </div>
-                                    <div className="match-card">
-                                        <span><FaUserAlt className='card-icon'/><BsArrowRight className='card-icon'/><FaUsers className='card-icon'/></span>
-                                        <p>Matching Ajo</p>
-                                    </div>
-                                    <div className="personal-card">
-                                        <BsPiggyBank className='card-icon'/>
-                                        <p>Personal Savings</p>
-                                    </div>
-                                    <div className="more-card">
-                                        <BsThreeDots className='card-icon'/>
-                                        <p>More</p>
-                                    </div>
+                                    <Link to='/ajo'>
+                                        <div className="group-card">
+                                            <FaUsers className='card-icon'/>
+                                            <p>Group Ajo</p>
+                                        </div>
+                                    </Link>
+                                    <Link to='/matchajo'>
+                                        <div className="match-card">
+                                            <span><FaUserAlt className='card-icon'/><BsArrowRight className='card-icon'/><FaUsers className='card-icon'/></span>
+                                            <p>Matching Ajo</p>
+                                        </div>
+                                    </Link>
+                                    <Link to='/personalajo'>
+                                        <div className="personal-card">
+                                            <BsPiggyBank className='card-icon'/>
+                                            <p>Personal Savings</p>
+                                        </div>
+                                    </Link>
+                                    <Link>
+                                        <div className="more-card">
+                                                <BsThreeDots className='card-icon'/>
+                                                <p>More</p>
+                                            </div>
+                                    </Link>
                                 </div>
                                 <div className="dashboard-transaction">
                                     <DashboardTable/>
