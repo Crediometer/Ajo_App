@@ -41,7 +41,7 @@ const AjoSuccessfull = () => {
                                 <div className="ajo-successfull-body-inner">
                                     <img src={success}></img>
                                     <p>Success</p>
-                                    <p>Dutse market 20k ajo started <span>successfully</span></p>
+                                    <p>Dutse market 20k Hoop started <span>successfully</span></p>
                                     <div>
                                         <Link to='/ajo/ajostatus'>
                                             <button>See Status</button>

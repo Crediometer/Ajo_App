@@ -141,3 +141,27 @@
     border-radius: 6.29049px;
     border: none;
 }
+@media (max-width: 820px) {
+    .form-1{
+        flex-direction: column;
+    }
+    .ajo-name{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ajo-name::placeholder{
+        font-size: 14px;
+    }
+    .ajo-save-outer{
+        width: 100%;
+    }
+    .ajo-save{
+        font-size: 14px;
+    }
+    .ajo-save optgroup{
+        font-size: 14px;
+    }
+    .terms-label, .start label, .maturity label{
+        font-size: 12px;
+    }
+}

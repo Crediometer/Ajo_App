@@ -19,3 +19,12 @@
 .lifestyle{
     border-bottom: 2px solid rgba(183, 183, 183, 0.6);
 }
+@media (max-width:820px) {
+    .personal-review-inner {
+        width: 90%;
+    }
+    .personal-review-inner table tr{
+        font-size: 16px;
+    }
+    
+}

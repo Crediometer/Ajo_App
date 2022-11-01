@@ -23,9 +23,6 @@ const Navbar = () => {
                         <p className='greeting'>Good day</p>
                         <p className='name'>Richard Stone</p>
                     </div>
-                    <div className="dropdown">
-                        <IoMdArrowDropdown/>
-                    </div>
                 </div>
             </div>
         </div>

@@ -29,9 +29,12 @@
 .ajo-successfull-body p span{
     color: #058B42;
 }
+.ajo-successfull-body-inner a{
+    display:flex;
+    justify-content: center;
+}
 .ajo-successfull-body button{
     margin-top: 20px;
-    margin-left: -50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -42,9 +45,17 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 568px;
+    width: 70%;
     height: 76px;
     background: #B11226;
     border-radius: 11px;
     border: none;
+}
+@media (max-width: 820px){
+    .ajo-successfull-body img{
+        width: 200px;
+    }
+    .ajo-successfull-body p{
+        font-size: 30px;
+    }
 }

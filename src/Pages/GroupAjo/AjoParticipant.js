@@ -16,6 +16,7 @@ const AjoParticipant = () => {
                         <Link to='/ajo/createajo'>
                             <BiArrowBack/>
                         </Link>
+                        <p className="title title-mobile">Group Hoop</p>
                     </div>
                     <div className="ajo-participant-body">
                         <p>Add Participants :</p>

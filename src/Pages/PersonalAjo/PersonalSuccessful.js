@@ -5,6 +5,7 @@ import Sidebar from '../../Component/Sidebar/Sidebar';
 import Navbar from '../../Component/Navbar/Navbar';
 import { useState, useEffect } from 'react';
 import MoonLoader from "react-spinners/MoonLoader";
+import './PersonalPreview.css'
 const PersonalSuccessful = () => {
     const [spinner, setSpinner]= useState(false)
     useEffect(()=>{
@@ -40,7 +41,7 @@ const PersonalSuccessful = () => {
                                 <div className="ajo-successfull-body-inner">
                                     <img src={success}></img>
                                     <p>Success</p>
-                                    <p>Success your life style plan of 10k has been created <span>Successfully</span></p>
+                                    <p className='personal-success-text'>Success your life style plan of 10k has been created <span>Successfully</span></p>
                                     <div>
                                         <Link to='/personalajo/review'>
                                             <button>See Status</button>

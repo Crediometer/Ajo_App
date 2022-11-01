@@ -35,13 +35,13 @@ const Dashboard = () => {
                                     <Link to='/ajo'>
                                         <div className="group-card">
                                             <FaUsers className='card-icon'/>
-                                            <p>Group Ajo</p>
+                                            <p>Group Hoop</p>
                                         </div>
                                     </Link>
                                     <Link to='/matchajo'>
                                         <div className="match-card">
                                             <span><FaUserAlt className='card-icon'/><BsArrowRight className='card-icon'/><FaUsers className='card-icon'/></span>
-                                            <p>Matching Ajo</p>
+                                            <p>Matching Hoop</p>
                                         </div>
                                     </Link>
                                     <Link to='/personalajo'>

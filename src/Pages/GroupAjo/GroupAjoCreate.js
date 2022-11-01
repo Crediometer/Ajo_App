@@ -16,7 +16,7 @@ const GroupAjoCreate = () => {
                             <Link to='/ajo'>
                                 <BiArrowBack/>
                             </Link>
-                            <p className="title">Group Ajo</p>
+                            <p className="title">Group Hoop</p>
                         </div>
                         <div>
                             <CreateAjo/>

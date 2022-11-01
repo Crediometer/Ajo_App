@@ -18,7 +18,7 @@ const AddContact = () => {
                             <Link to='/ajo/add'>
                                 <BiArrowBack/>
                             </Link>
-                            <p className="title">Group Ajo</p>
+                            <p className="title">Group Hoop</p>
                         </div>
                         <div className="add-contact-body">
                             <div className="contact-filter">
@@ -64,6 +64,12 @@ const AddContact = () => {
                                             
                                         )
                                     })}
+                                </div>
+                                <div className="contact-action-2">
+                                    <button className='unselect'>Unselect all</button>
+                                    <Link to='/ajo/selectedcontact'>
+                                        <button className='proceed'>Proceed</button>
+                                    </Link>
                                 </div>
 
                             </div>

@@ -95,7 +95,6 @@
 .dashboard-right{
     width: 25%;
 }
-
 .recent-transfer{
     background-color: #FFFFFF;
     padding: 20px;
@@ -181,4 +180,15 @@
     background: #D11C1C;
     border-radius: 7px;
 
+}
+@media (max-width: 820px) {
+    .dashboard-welcome{
+        display: none;
+    }
+    .dashboard-right{
+        display: none;
+    }
+    .dashboard-transaction{
+        display: none;
+    }
 }

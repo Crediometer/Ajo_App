@@ -16,7 +16,7 @@ const MatchAjo = () => {
                     </Link>
                     <div className="group-ajo">
                         <div className="group-ajo-inner">
-                            <p>No Matching Ajo Found <br></br> Click on start to create a group </p>
+                            <p>No Matching Hoop Found <br></br> Click on start to create a group </p>
                             <div className="button-container">
                                 <Link to='/matchajo/available'>
                                     <button>Start</button>

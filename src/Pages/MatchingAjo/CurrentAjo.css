@@ -26,3 +26,9 @@
     background-color: #B11226;
     border-radius: 10px 10px 0px 0px;
 }
+@media (max-width: 820px) {
+    .match-header{
+        display: none;
+    }
+    
+}

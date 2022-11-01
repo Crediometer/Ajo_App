@@ -25,49 +25,49 @@ const MatchParticipant = () => {
                     <div className="match-participant-body">
                         <div className="match-participant-inner">
                         <Table className="participant-table">
-                                        <thead>
-                                            <tr>
-                                            <th>Recipient</th>
-                                            <th>Date</th>
-                                            <th>Phone Number</th>
-                                            <th>Amount</th>
-                                            <th>Status</th>
-                                            </tr>
-                                        </thead>
-                                        {/* <div className="table-body"> */}
-                                            <tbody>
-                                                {MatchingData.map((participant) =>{
-                                                    return(
-                                                            
-                                                        <tr>
-                                                        <td>
-                                                            <div className="recepient">
-                                                                <img src={participant.image}></img>
-                                                                <p className="recepient-name">{participant.name}</p>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div className="date">
-                                                                <div className="f">
-                                                                    <p className="payment-date">{participant.date}</p>
-                                                                    <p className="payment-time">{participant.time}</p>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td className="phonenumber2">{participant.phone}</td>
-                                                        <td className="dues">N{participant.due}</td>
-                                                        <td>
-                                                            <div className="status-button">
-                                                                <button>Successful</button>
-                                                            </div>
-                                                        </td>
-                                                        </tr>
-                                                
-                                                
-                                                    )
-                                                })}
-                                            </tbody>
-                             {/* </div> */}
+                            <thead>
+                                <tr>
+                                <th>Recipient</th>
+                                <th>Date</th>
+                                <th>Phone Number</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                </tr>
+                            </thead>
+                            {/* <div className="table-body"> */}
+                            <tbody>
+                                {MatchingData.map((participant) =>{
+                                    return(
+                                            
+                                        <tr>
+                                        <td>
+                                            <div className="recepient">
+                                                <img src={participant.image}></img>
+                                                <p className="recepient-name">{participant.name}</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div className="date">
+                                                <div className="f">
+                                                    <p className="payment-date">{participant.date}</p>
+                                                    <p className="payment-time">{participant.time}</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td className="phonenumber2">{participant.phone}</td>
+                                        <td className="dues">N{participant.due}</td>
+                                        <td>
+                                            <div className="status-button">
+                                                <button>Successful</button>
+                                            </div>
+                                        </td>
+                                        </tr>
+                                
+                                
+                                    )
+                                })}
+                            </tbody>
+                            {/* </div> */}
                             </Table>
                             <Link to='/matchajo/information'>
                                 <div className="match-submit">

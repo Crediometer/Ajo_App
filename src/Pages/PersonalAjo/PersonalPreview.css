@@ -82,3 +82,14 @@
 .terms-info span{
     color: #058B42;
 }
+@media (max-width: 820px) {
+    .personal-preview-inner{
+        width: 90%;
+    }
+    .personal-preview-inner table tr{
+        font-size: 18px;   
+    }
+    .personal-success-text{
+        font-size: 10px;
+    }
+}

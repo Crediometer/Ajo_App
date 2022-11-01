@@ -12,7 +12,7 @@ const MatchInfo = () => {
                     <div className="body">
                         <div className="back">
                             <BiArrowBack/>
-                            <p className="title">   Yam Sellers</p>
+                            <p className="title">Yam Sellers</p>
                         </div>
                         <div className="current-ajo-inner">
                             <div className="current-ajo-body">
