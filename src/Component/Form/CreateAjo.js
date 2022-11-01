@@ -22,6 +22,7 @@ const CreateAjo = () => {
                                     <option>Daily</option>
                                     <option>Monthly</option>
                                     <option>Annualy</option>
+                                    <option>Custom</option>
                                 </optgroup>
                             </select>
                             <label>
