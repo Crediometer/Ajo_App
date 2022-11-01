@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5214bd5a.css",
-    "main.js": "/static/js/main.7fd8d85e.js",
+    "main.css": "/static/css/main.689f7bc0.css",
+    "main.js": "/static/js/main.49c7a02e.js",
     "static/media/profile-image.jpg": "/static/media/profile-image.e575d97a45880b5ddd00.jpg",
     "static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.png": "/static/media/young-afro-girl-wearing-glasses-looking-happy-texting-with-frien 1.b9b7cabcfab51f712923.png",
     "static/media/success.png": "/static/media/success.1cf29ab15f66f9817843.png",
@@ -10,11 +10,11 @@
     "static/media/amico.png": "/static/media/amico.40b3adb6b615f6217a10.png",
     "static/media/Group 692.png": "/static/media/Group 692.d23351329f99010ac4bf.png",
     "index.html": "/index.html",
-    "main.5214bd5a.css.map": "/static/css/main.5214bd5a.css.map",
-    "main.7fd8d85e.js.map": "/static/js/main.7fd8d85e.js.map"
+    "main.689f7bc0.css.map": "/static/css/main.689f7bc0.css.map",
+    "main.49c7a02e.js.map": "/static/js/main.49c7a02e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5214bd5a.css",
-    "static/js/main.7fd8d85e.js"
+    "static/css/main.689f7bc0.css",
+    "static/js/main.49c7a02e.js"
   ]
 }
