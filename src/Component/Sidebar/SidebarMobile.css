@@ -1,0 +1,39 @@
+.sidebar-mobile{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.navigation-mobile{
+    padding: 20px;
+}
+.navigation-mobile ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+}
+.navigation-mobile ul li{
+    text-decoration: none;
+}
+.navigation-mobile ul li span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #828282;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+.navigation-mobile ul li span svg{
+    font-size: 18px;
+}
+@media (min-width: 821px) {
+    .sidebar-mobile{
+        display: none;
+    }
+}

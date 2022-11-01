@@ -15,10 +15,10 @@ const GroupAjo = () => {
                     <div className="back">
                         <BiArrowBack/>
                         <p className="title title-mobile">Group Hoop</p>
-                        <div className="bell">
+                        {/* <div className="bell">
                             <IoNotificationsOutline/>
                             <div className="number"><p>2</p></div>
-                        </div>
+                        </div> */}
                     </div>
                     </Link>
                     <div className="group-ajo">

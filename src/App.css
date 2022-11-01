@@ -44,4 +44,7 @@ textarea:focus{
   .title{
     font-size: 30px;
   }
+  .back{
+    margin-top: 100px;
+  }
 }

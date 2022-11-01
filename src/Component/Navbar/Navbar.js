@@ -16,12 +16,14 @@ const Navbar = () => {
                         <IoNotificationsOutline/>
                         <div className="number"><p>2</p></div>
                     </div>
-                    <div className="user-image">
-                        <img src={image}></img>
-                    </div>
-                    <div className="user-name">
-                        <p className='greeting'>Good day</p>
-                        <p className='name'>Richard Stone</p>
+                    <div className='navbar-profile-left'>
+                        <div className="user-image">
+                            <img src={image}></img>
+                        </div>
+                        <div className="user-name">
+                            <p className='greeting'>Good day</p>
+                            <p className='name'>Richard Stone</p>
+                        </div>
                     </div>
                 </div>
             </div>

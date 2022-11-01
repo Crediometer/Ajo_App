@@ -2,7 +2,8 @@
 import Navbar from '../../Component/Navbar/Navbar';
 import Sidebar from '../../Component/Sidebar/Sidebar';
 import {BiArrowBack} from 'react-icons/bi';
-import {FaUsers, FaUserAlt} from 'react-icons/fa';
+import {FaUsers, FaUserAlt, FaPlus} from 'react-icons/fa';
+import {IoPaperPlaneOutline, IoPersonOutline} from 'react-icons/io5'
 import {BsArrowRight, BsPiggyBank, BsThreeDots} from 'react-icons/bs';
 import {MdArrowDropDown, MdArrowDropUp} from 'react-icons/md';
 import Card from '../../Component/Card/Card';
@@ -12,6 +13,7 @@ import { Link } from 'react-router-dom';
 import './Dashboard.css';
 import DashboardTable from '../../Component/Table/DashboardTable';
 import TransferRate from '../../Component/Rate/TransferRate';
+import SidebarMobile from '../../Component/Sidebar/SidebarMobile';
 const Dashboard = () => {
 
     return ( 
@@ -30,6 +32,23 @@ const Dashboard = () => {
                                 <div className="dashboard-card">
                                    <Card/>
                                    <Card/>
+                                </div>
+                                <div className="quick-action">
+                                    <p className="action-text">Quick Action</p>
+                                    <div className="quick-action-nav">
+                                        <div className="fund-account">
+                                        <div className="fund-account-icon"><FaPlus/></div>
+                                            <p className="fund-text">Fund account</p>
+                                        </div>
+                                        <div className="fund-account">
+                                        <div className="fund-account-icon"><IoPaperPlaneOutline/></div>
+                                            <p className="fund-text">Transfer</p>
+                                        </div>
+                                        <div className="fund-account">
+                                            <div className="fund-account-icon"><IoPersonOutline/></div> 
+                                            <p className="fund-text">Ask Friend</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="dashboard-ajo">
                                     <Link to='/ajo'>
@@ -91,6 +110,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
+                    <SidebarMobile/>
                 </div>
             </div>
         </div>

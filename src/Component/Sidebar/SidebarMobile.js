@@ -1,7 +1,8 @@
 import {GrTransaction} from 'react-icons/gr';
 import {FaPeopleArrows} from 'react-icons/fa';
-import {BiUser} from 'react-icons/bi';
+import {BiUser, BiTransferAlt} from 'react-icons/bi';
 import {FiHome} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import "./SidebarMobile.css";
 const SidebarMobile = () => {
     return ( 
@@ -15,7 +16,7 @@ const SidebarMobile = () => {
                     </Link>
                     <Link to='/transaction'>
                         <li>
-                            <span><GrTransaction/>Transaction</span>
+                            <span><BiTransferAlt/>Transaction</span>
                         </li>
                     </Link>
                     <Link to='/profile'>
