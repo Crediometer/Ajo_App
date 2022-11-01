@@ -108,7 +108,7 @@ const AjoStatus = () => {
                                         </div>
                                     </div>
                                         <div className="submit">
-                                            <Link to='/ajo/add'>
+                                            <Link to='/dashboard'>
                                                 <input 
                                                 type="submit"
                                                 name="submit"

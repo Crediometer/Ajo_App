@@ -1,6 +1,7 @@
 import Information from "../../Component/Form/Infomation";
 import Sidebar from '../../Component/Sidebar/Sidebar';
 import Navbar from '../../Component/Navbar/Navbar';
+import { Link } from "react-router-dom";
 import {BiArrowBack} from 'react-icons/bi';
 const MatchInfo = () => {
     return ( 
@@ -11,7 +12,9 @@ const MatchInfo = () => {
                     <Navbar/>
                     <div className="body">
                         <div className="back">
-                            <BiArrowBack/>
+                            <Link to='/matchajo/participant'>
+                                <BiArrowBack/>
+                            </Link>
                             <p className="title">Yam Sellers</p>
                         </div>
                         <div className="current-ajo-inner">

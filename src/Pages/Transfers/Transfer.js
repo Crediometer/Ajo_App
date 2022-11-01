@@ -5,7 +5,8 @@ import Table from 'react-bootstrap/Table';
 import './Transfer.css' ;
 import SidebarTransfer from '../../Component/Sidebar/SidebarTransfer';
 import { TransferData } from '../../Component/Table/TransferData';
-import {BiChevronRight} from 'react-icons/bi'
+import {BiChevronRight} from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 const Transfer = () => {
     return ( 
         <div className="transfer">
@@ -49,7 +50,9 @@ const Transfer = () => {
                                                         <td className='transfer-account2'>{transfer.accountnumber}</td>
                                                         <td>
                                                             <div className="transfer-next">
-                                                                <BiChevronRight/>
+                                                                <Link to='/transfer/form'>
+                                                                    <BiChevronRight/>
+                                                                </Link>
                                                             </div>
                                                         </td>
                                                     </tr>

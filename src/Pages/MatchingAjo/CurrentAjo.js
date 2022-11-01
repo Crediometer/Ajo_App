@@ -13,6 +13,9 @@ const CurrentAjo = () => {
                     <Navbar/>
                     <div className="body">
                         <div className="back">
+                            <Link to='/matchajo'>
+                                <BiArrowBack/>
+                            </Link>
                             <BiArrowBack/>
                             <p className="title">Matching Ajo</p>
                         </div>
