@@ -10,6 +10,7 @@ import {FaUsers, FaMoneyBillAlt} from 'react-icons/fa'
 import {AiFillSetting} from 'react-icons/ai'
 import {MdDelete} from 'react-icons/md'
 import ProfileForm from '../../Component/Form/ProfileForm';
+import SidebarMobile from '../../Component/Sidebar/SidebarMobile';
 const Profile = () => {
     return ( 
         <div className="profile">
@@ -60,6 +61,7 @@ const Profile = () => {
                             </div>
                         </div>
                     </div>
+                    <SidebarMobile/>
                 </div>
             </div>
         </div>
