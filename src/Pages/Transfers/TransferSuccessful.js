@@ -5,6 +5,7 @@ import success from '../../image/success2.png'
 import './TransferSuccess.css'
 import TransferModal from "../../Component/Modal/TransferModal";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const TransferSuccessful = () => {
     const [openModal, setOpenModal] = useState(false);
     return ( 
@@ -15,7 +16,9 @@ const TransferSuccessful = () => {
                     <Navbar/>
                     <div className="body transferContainer">
                         <div className="back">
-                            <BiArrowBack/>
+                            <Link to='/transfer/form'>
+                                <BiArrowBack/>
+                            </Link>
                         </div>
                         <div className="transfer-success-outer">
                             <div className="transfer-success-inner">

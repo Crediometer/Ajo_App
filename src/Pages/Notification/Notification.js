@@ -3,6 +3,8 @@ import "../../Component/Form/PersonalForm.css"
 import Navbar from '../../Component/Navbar/Navbar';
 import Sidebar from '../../Component/Sidebar/Sidebar';
 import cx from 'classnames';
+import { Link } from "react-router-dom";
+import { BiArrowBack, BiSearch } from "react-icons/bi";
 import image from "../../image/profile-image.jpg";
 import {MdOutlineDeleteOutline} from 'react-icons/md'
 import { useState } from "react";
@@ -29,6 +31,23 @@ const Notification = ({rounded = false, isToggled, onToggle}) => {
                                             <span className={sliderCX} rounded={true}/>
                                         </label>
                                     </div>
+                                </div>
+                            </div>
+                            <div className="back notification-back">
+                                <Link to='/dashboard'>
+                                    <BiArrowBack/>
+                                </Link>
+                                <p className="title">Inbox</p>
+                            </div>
+                            <div className="notification-search-outer">
+                                <div className="notification-search">
+                                    <BiSearch/>
+                                    <input
+                                    type="text"
+                                    name="search"
+                                    placeholder= "Search by name"
+                                    >
+                                    </input>
                                 </div>
                             </div>
                             <div className="notification-inner">

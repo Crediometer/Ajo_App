@@ -2,11 +2,11 @@ import {BiSearch, BiArrowBack} from 'react-icons/bi';
 import Sidebar from '../../Component/Sidebar/Sidebar';
 import Navbar from '../../Component/Navbar/Navbar';
 import Table from 'react-bootstrap/Table';
+import { Link } from 'react-router-dom';
 import './Transfer.css' ;
 import SidebarTransfer from '../../Component/Sidebar/SidebarTransfer';
 import { TransferData } from '../../Component/Table/TransferData';
 import {BiChevronRight} from 'react-icons/bi';
-import { Link } from 'react-router-dom';
 const Transfer = () => {
     return ( 
         <div className="transfer">
@@ -15,12 +15,27 @@ const Transfer = () => {
                 <div className="homeContainer ">
                     <Navbar/>
                     <div className="body transferContainer">
-                        <div className="back">
-                            <BiArrowBack/>
-                        </div>
+                        <Link to='/dashboard'>
+                            <div className="back">
+                                <BiArrowBack/>
+                            </div>
+                        </Link>
                         <div className="transfer-outer">
                             <div className="transfer-inner">
                                 <div className="transfer-top">
+                                    <div className="recent-recepient">
+                                        <p className="recent-recepient-name">Recent recepients</p>
+                                            <div className="recepient-details">
+                                                {TransferData.map((transfer)=>{
+                                                    return(
+                                                        <div className="recepient-individual">
+                                                            <img src={transfer.image}></img>
+                                                            <p>{transfer.name}</p>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div> 
+                                    </div>
                                     <div className="search-screen">
 
                                     </div>
@@ -29,7 +44,16 @@ const Transfer = () => {
                                         <input
                                         type="text"
                                         name="search"
-                                        placeholder= "Search by name, number or Credio account number"
+                                        placeholder= "Search by name"
+                                        >
+                                        </input>
+                                    </div>
+                                    <div className="transfer-search transfer-search-2">
+                                        <BiSearch/>
+                                        <input
+                                        type="text"
+                                        name="search"
+                                        placeholder= "Search by account number"
                                         >
                                         </input>
                                     </div>
