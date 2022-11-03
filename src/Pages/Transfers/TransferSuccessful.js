@@ -3,7 +3,10 @@ import Navbar from "../../Component/Navbar/Navbar";
 import SidebarTransfer from "../../Component/Sidebar/SidebarTransfer";
 import success from '../../image/success2.png'
 import './TransferSuccess.css'
+import TransferModal from "../../Component/Modal/TransferModal";
+import { useState } from "react";
 const TransferSuccessful = () => {
+    const [openModal, setOpenModal] = useState(false);
     return ( 
         <div className="transfer-successful">
             <div className="home">
@@ -21,7 +24,8 @@ const TransferSuccessful = () => {
                                     <img src={success}></img>
                                 </div>
                                 <div className="button-con">
-                                    <button>Confirm transaction</button>
+                                    <button onClick={()=> setOpenModal(true)}>Confirm transaction</button>
+                                    {openModal && <TransferModal closeModal={setOpenModal}/>}
                                 </div>
                             </div>
                         </div>

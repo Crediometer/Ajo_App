@@ -40,10 +40,12 @@ const Dashboard = () => {
                                         <div className="fund-account-icon"><FaPlus/></div>
                                             <p className="fund-text">Fund account</p>
                                         </div>
-                                        <div className="fund-account">
-                                        <div className="fund-account-icon"><IoPaperPlaneOutline/></div>
-                                            <p className="fund-text">Transfer</p>
-                                        </div>
+                                        <Link to='/transfer'>
+                                            <div className="fund-account">
+                                                <div className="fund-account-icon"><IoPaperPlaneOutline/></div>
+                                                <p className="fund-text">Transfer</p>
+                                            </div>
+                                        </Link>
                                         <div className="fund-account">
                                             <div className="fund-account-icon"><IoPersonOutline/></div> 
                                             <p className="fund-text">Ask Friend</p>

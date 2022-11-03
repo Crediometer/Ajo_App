@@ -94,11 +94,18 @@
     font-style: normal;
     font-weight: 700;
     font-size: 19.4488px;
-    line-height: 120%;
     color: #FFFFFF;
     width: 20%;
     height: 48px;
     border: none;
     background: #B11226;
     border-radius: 10px;
+}
+@media (max-width: 820px) {
+    .profile-name label, .profile-other label{
+        font-size: 10px;
+    }
+    .profile-name input, .profile-other input,.profile-name select{
+        font-size: 12px;
+    }
 }

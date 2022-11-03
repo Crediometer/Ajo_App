@@ -6,7 +6,7 @@ const TransferUser = () => {
             <form>
                 <div className="form-5">
                     <div className="profile-name">
-                        <label> elect account to be deduted </label><br></br>
+                        <label> Select account to be deduted </label><br></br>
                         <select>
                             <optgroup>
                                 <option>Credio pay- N376,994 </option>
@@ -19,15 +19,6 @@ const TransferUser = () => {
                         <input
                         type='tel'
                         placeholder='98984-09489-48593-95'
-                        ></input>
-                    </div>
-                </div>
-                <div className="form-6">
-                    <div className="profile-other">
-                        <label>Benaficials full name </label><br></br>
-                        <input
-                        type='text'
-                        placeholder='Mosunmoluwa ruth olaleye '
                         ></input>
                     </div>
                 </div>
@@ -44,6 +35,15 @@ const TransferUser = () => {
                         <input
                         type='tel'
                         placeholder='N30,000'
+                        ></input>
+                    </div>
+                </div>
+                <div className="form-6">
+                    <div className="profile-other">
+                        <label>Benaficials full name </label><br></br>
+                        <input
+                        type='text'
+                        placeholder='Mosunmoluwa ruth olaleye '
                         ></input>
                     </div>
                 </div>

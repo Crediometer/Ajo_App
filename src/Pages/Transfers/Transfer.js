@@ -60,6 +60,26 @@ const Transfer = () => {
                                             })}
                                         </tbody>
                                     </Table>
+                                    {TransferData.map((transfer)=>{
+                                        return(
+                                            <div className="recent-transfer-mobile">
+                                                <div className="recent-mobile-name-image">
+                                                    <div className="recent-mobile-image">
+                                                        <img src={transfer.image} ></img>
+                                                    </div>
+                                                    <div className="recent-mobile-name">
+                                                        <p className="recen">{transfer.name}</p>
+                                                        <p className="recent-mobile-account">{transfer.accountnumber}</p>
+                                                    </div>
+                                                </div>
+                                                <div className="transfer-next">
+                                                    <Link to='/transfer/form'>
+                                                        <BiChevronRight/>
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                           );
+                                        })}
                                 </div>
                             </div>
                         </div>
