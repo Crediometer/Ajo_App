@@ -34,6 +34,9 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 4%;
 }
+.card-2{
+    background: linear-gradient(308.88deg, #4C53F7 9.57%, #AB1B1B 216.35%);
+}
 .quick-action{
     display: none;
 }

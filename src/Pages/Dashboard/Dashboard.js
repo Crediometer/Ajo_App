@@ -5,6 +5,8 @@ import {BiArrowBack} from 'react-icons/bi';
 import {FaUsers, FaUserAlt, FaPlus} from 'react-icons/fa';
 import {IoPaperPlaneOutline, IoPersonOutline} from 'react-icons/io5'
 import {BsArrowRight, BsPiggyBank, BsThreeDots} from 'react-icons/bs';
+import {AiOutlineEyeInvisible} from 'react-icons/ai';
+import {RiFileCopyFill} from 'react-icons/ri'
 import {MdArrowDropDown, MdArrowDropUp} from 'react-icons/md';
 import Card from '../../Component/Card/Card';
 import { TransferData } from './TransferData';
@@ -30,8 +32,28 @@ const Dashboard = () => {
                                     <p className="welcome-pending">You have a pending transaction to your credio pay account</p>
                                 </div>
                                 <div className="dashboard-card">
-                                   <Card/>
-                                   <Card/>
+                                <div className="card">
+                                    <div className="card-header">
+                                        <p>Credio Pay</p>
+                                        <AiOutlineEyeInvisible/>
+                                    </div>
+                                    <div className="card-body">
+                                        <p className="balance">Balance:</p>
+                                        <p className="balance-amount">N378,032<span className='dot'>.</span><span className='decimal'>00</span></p>
+                                        <p className="account-number">XD083...9452 <span><RiFileCopyFill/></span></p>
+                                    </div>
+                                </div>
+                                <div className="card card-2">
+                                    <div className="card-header">
+                                        <p>Credio Pay</p>
+                                        <AiOutlineEyeInvisible/>
+                                    </div>
+                                    <div className="card-body">
+                                        <p className="balance">Balance:</p>
+                                        <p className="balance-amount">N378,032<span className='dot'>.</span><span className='decimal'>00</span></p>
+                                        <p className="account-number">XD083...9452 <span><RiFileCopyFill/></span></p>
+                                    </div>
+                                </div>
                                 </div>
                                 <div className="quick-action">
                                     <p className="action-text">Quick Action</p>

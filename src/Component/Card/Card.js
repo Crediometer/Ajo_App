@@ -3,7 +3,7 @@ import {AiOutlineEyeInvisible} from 'react-icons/ai';
 import {RiFileCopyFill} from 'react-icons/ri'
 const Card = (props) => {
     return ( 
-        <div className="card" style={props.cardstyle}>
+        <div className="card">
             <div className="card-header">
                 <p>Credio Pay</p>
                 <AiOutlineEyeInvisible/>
