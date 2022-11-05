@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
-import './CreateAjo.css';
-const CreateAjo = () => {
+import { Link } from "react-router-dom";
+const MatchForm = () => {
     return ( 
-        <div className="create-ajo">
+        <div className="matchform">
+            <div className="create-ajo">
             <div className="create-ajo-inner">
                 <form>
                     <div className="form-1">
@@ -10,7 +10,7 @@ const CreateAjo = () => {
                         type='text'
                         className="ajo-name"
                         name="ajoName"
-                        placeholder="Give a name to the group"
+                        placeholder='10,000'
                         required
                         />
                         <div className="ajo-save-outer">
@@ -35,14 +35,14 @@ const CreateAjo = () => {
                         type='tel'
                         className="ajo-name"
                         name="ajoName"
-                        placeholder="Amount"
+                        placeholder='10 participant'
                         required
                         />
                         <div className="ajo-save-outer">
                             <select className="ajo-save"
                             required
                             >
-                                <option>Day of the week money sould be debited </option>
+                                <option>funds would be deducted on fridays </option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -76,10 +76,10 @@ const CreateAjo = () => {
                             </select><br></br>
                         </div>
                     </div>
-                    <select className="ajo-save ajo-number"
+                    <select className="ajo-save ajo-account"
                     required
                     >
-                        <option>Number range of participant</option>
+                        <option>10 participants</option>
                     </select><br></br>
                     <div className="form-1">
                         <div className="terms">
@@ -116,7 +116,7 @@ const CreateAjo = () => {
                             </div>
                         </div>
                     </div>
-                    <Link to='/ajo/add'>
+                    <Link to='/matchajo/participant'>
                         <div className="submit">
                             <input 
                             type="submit"
@@ -128,7 +128,8 @@ const CreateAjo = () => {
                 </form>
             </div>
         </div>
+        </div>
      );
 }
  
-export default CreateAjo;
+export default MatchForm;

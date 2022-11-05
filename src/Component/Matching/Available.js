@@ -3,7 +3,7 @@ import './Available.css';
 const Available = () => {
     return ( 
         <div className="available">
-            <Link to='/matchajo/participant'>
+            <Link to='/matchform'>
                 <div className="grid-1">
                     <p>Yam sellers ajo </p>
                 </div>

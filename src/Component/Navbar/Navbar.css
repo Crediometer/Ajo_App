@@ -2,8 +2,8 @@
     position: fixed;
     height: 80px;
     z-index: 3;
-    margin-left: 300px;
-    width: calc(100% - 300px);
+    margin-left: 250px;
+    width: calc(100% - 250px);
     display: flex;
     align-items: center;
     background-color: white;

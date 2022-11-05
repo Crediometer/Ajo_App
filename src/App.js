@@ -27,6 +27,7 @@ import Notification from './Pages/Notification/Notification';
 import Transfer from './Pages/Transfers/Transfer';
 import TransferForm from './Pages/Transfers/TransferForm';
 import TransferSuccessful from './Pages/Transfers/TransferSuccessful';
+import MatchAjoCreate from './Pages/MatchingAjo/MatchAjoCreate';
 function App() {
   return (
     <div className="App">
@@ -55,6 +56,7 @@ function App() {
         <Route exact path='/ajo/ajostatus' element={<AjoStatus/>}></Route>
          {/* ROUTES FOR MATCHING AJO */}
          <Route exact path='/matchajo' element={<MatchAjo/>}></Route>
+         <Route exact path='/matchform' element={<MatchAjoCreate/>}></Route>
          <Route exact path='/matchajo/available' element={<CurrentAjo/>}></Route>
          <Route exact path='/matchajo/yamseller' element={<AvailableAjo/>}></Route>
          <Route exact path='/matchajo/participant' element={<MatchParticipant/>}></Route>

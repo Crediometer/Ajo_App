@@ -16,7 +16,6 @@ const CurrentAjo = () => {
                             <Link to='/matchajo'>
                                 <BiArrowBack/>
                             </Link>
-                            <BiArrowBack/>
                             <p className="title">Matching Ajo</p>
                         </div>
                         <div className="current-ajo-inner">

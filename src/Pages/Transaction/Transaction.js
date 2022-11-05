@@ -17,7 +17,8 @@ const Transaction = () => {
                             <div className="transaction-inner">
                                 <div className="transaction-top">
                                     <div className="transaction-current-prev">
-
+                                        <div className="currentajo"><p>Current Ajo</p></div>
+                                        <div className="previous-ajo"><p>Previous Ajo</p></div>
                                     </div>
                                     <div className="transaction-type">
                                         <div className="type-card-1">

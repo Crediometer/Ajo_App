@@ -5,7 +5,7 @@
     font-family: 'Darker Grotesque';
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 87px;
     text-align: center;
     color: #000000;
@@ -19,8 +19,8 @@
     background-color: #B11226;
     border-radius: 50%;
     color: white;
-    margin-top: 150px;
-    margin-right: 120px;
+    margin-top: 190px;
+    margin-right: 70px;
     float: right;
 }
 .add svg{
@@ -41,7 +41,7 @@
     .add{
         height: 60px;
         width: 60px;
-        margin-top: 300px;
+        margin-top: 400px;
         margin-right: 20px;
     }
     .add svg{

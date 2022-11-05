@@ -2,7 +2,7 @@
     background: linear-gradient(308.88deg, #B11226 9.57%, #8C1BAB 233.58%);
     border-radius: 20px;
     height: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 .card-header{
     display: flex;
@@ -12,7 +12,7 @@
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 500;
-    font-size: 15.9375px;
+    font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
 }
@@ -25,14 +25,14 @@
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 500;
-    font-size: 13.2812px;
+    font-size: 10x;
     color: #FFFFFF;
 }
 .balance-amount{
     font-family: 'Darker Grotesque';
     font-style: normal;
     font-weight: 700;
-    font-size: 43px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 .dot{

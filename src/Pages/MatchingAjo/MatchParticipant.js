@@ -14,7 +14,7 @@ const MatchParticipant = () => {
                     <Navbar/>
                     <div className="body">
                         <div className="back">
-                            <Link to='/matchajo/available'>
+                            <Link to='/matchform'>
                                 <BiArrowBack/>
                             </Link>
                             <div className="title-outer">

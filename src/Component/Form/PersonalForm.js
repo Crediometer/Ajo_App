@@ -54,11 +54,6 @@ const PersonalForm = ({rounded = false, isToggled, onToggle}) => {
                         </select><br></br>
                     </div>
                 </div>
-                <select className="ajo-save ajo-account"
-                required
-                >
-                    <option>Account to Debit</option>
-                </select><br></br>
                 <div className="form-1">
                     <div className="ajo-name">
                         <p className='estimated'>Estimated returns: <span>40,000</span></p>
