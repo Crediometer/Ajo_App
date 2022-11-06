@@ -34,7 +34,7 @@ const Dashboard = () => {
                                 <div className="dashboard-card">
                                 <div className="card">
                                     <div className="card-header">
-                                        <p>Credio Pay</p>
+                                        <p>Credio Hoop</p>
                                         <AiOutlineEyeInvisible/>
                                     </div>
                                     <div className="card-body">
@@ -45,7 +45,7 @@ const Dashboard = () => {
                                 </div>
                                 <div className="card card-2">
                                     <div className="card-header">
-                                        <p>Credio Pay</p>
+                                        <p>Credio Vault</p>
                                         <AiOutlineEyeInvisible/>
                                     </div>
                                     <div className="card-body">
